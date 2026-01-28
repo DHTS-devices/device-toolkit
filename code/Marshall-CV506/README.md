@@ -38,7 +38,7 @@ The CV506 outputs a **real-time HDMI video signal**.
 3. Add `ffmpeg.exe` to your system PATH
 
 Verify installation (PowerShell):
-powershell
+powershell```
 ffmpeg -version
 
 --

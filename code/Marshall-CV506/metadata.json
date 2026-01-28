@@ -1,0 +1,28 @@
+{
+  "project": "CV506_recording",
+  "subject_id": "S001",
+  "session_id": "session1",
+  "operator": "DB",
+  "start_time_local": "2026-01-28T11:32:10",
+  "timezone": "America/Phoenix",
+  "platform": "Windows",
+  "ffmpeg_version": "ffmpeg version 7.0 ...",
+
+  "video": {
+    "input_api": "dshow",
+    "device_name_or_index": "USB Video",
+    "fps": 30,
+    "codec": "libx264",
+    "preset": "veryfast",
+    "crf": 23,
+    "movflags": "+faststart",
+    "container": "mp4"
+  },
+
+  "output": {
+    "video_path": "recordings/S001_session1_20260128_113210.mp4",
+    "metadata_path": "recordings/S001_session1_20260128_113210.json"
+  },
+
+  "notes": "Test run. HDMI capture OK."
+}

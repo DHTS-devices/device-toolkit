@@ -38,8 +38,8 @@ The CV506 outputs a **real-time HDMI video signal**.
 3. Add `ffmpeg.exe` to your system PATH
 
 Verify installation (PowerShell):
-`powershell
-ffmpeg -version`
+``powershell
+ffmpeg -version``
 
 --
 
@@ -47,5 +47,5 @@ ffmpeg -version`
 1. Install via Homebrew (recommended):
 
 Verify installation (PowerShell):
-`powershell
-brew install ffmpeg`
+``powershell
+brew install ffmpeg``

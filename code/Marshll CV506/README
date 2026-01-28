@@ -1,0 +1,28 @@
+# Marshall CV506 – Recording Guide
+
+This document describes how to record video from the Marshall CV506 camera
+using a computer and an HDMI capture card.
+
+---
+
+## Requirements
+
+| Item | Description |
+|-----|------------|
+| Camera | Marshall CV506 |
+| Output | HDMI |
+| Capture | HDMI capture card (USB / PCIe) |
+| OS | Windows / macOS / Linux |
+| Software | FFmpeg |
+
+---
+
+## Install FFmpeg
+
+### Windows
+- Download: https://ffmpeg.org/download.html
+- Add `ffmpeg.exe` to system PATH
+
+Verify:
+```powershell
+ffmpeg -version

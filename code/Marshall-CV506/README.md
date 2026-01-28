@@ -46,5 +46,5 @@ ffmpeg -version
 1. Install via Homebrew (recommended):
 
 Verify installation (PowerShell):
-powershell
+```powershell
 brew install ffmpeg

@@ -48,4 +48,4 @@ ffmpeg -version``
 
 Verify installation (PowerShell):
 ```powershell
-brew install ffmpeg```
+brew install ffmpeg
